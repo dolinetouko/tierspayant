@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="TiersPayant.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TiersPayant"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="800">
+    <Grid Background="GhostWhite">
+        <Grid VerticalAlignment="Top" Height="125" Width="800">
+            <Button Width="130" HorizontalAlignment="Left" Content="Hospitalisation" Margin="15,46,0,47" />
+            <Button Width="140" HorizontalAlignment="Center" Content="Consultation" Margin="220,46,440,47" Height="Auto"/>
+            <Button Width="120"  HorizontalAlignment="Right" Content="Laboratoire" Margin="0,46,10,47"/>
+            <Button Width="145"  HorizontalAlignment="Right" Content="Sinistre" Margin="0,46,210,47" Height="Auto" Click="Button_Click"/>
+        </Grid>
+        <Grid Background="White" Width="800" VerticalAlignment="Bottom" Height="360" HorizontalAlignment="Left" >
+            <StackPanel >
+                <DataGrid >
+                    <DataGrid.Resources>
+                        <Style TargetType="{x:Type DataGridColumnHeader}">
+                            <Setter Property="FontWeight" Value="SemiBold"/>
+                            <Setter Property="BorderThickness" Value="0,0,1,2"/>
+                        </Style>
+                    </DataGrid.Resources>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Prestation" Width="100"/>
+                        <DataGridTextColumn Header="Souscripteur" Width="100"/>
+                        <DataGridTextColumn Header="Noms et Prenoms"  Width="170"/>
+                        <DataGridTextColumn Header="Matricule"  Width="100"/>
+                        <DataGridTextColumn Header="Centre de soins"  Width="150"/>
+                        <DataGridTextColumn Header="N° Police" Width="100"/>
+                        <DataGridTextColumn Header="Echeance"/>
+                        
+                    </DataGrid.Columns>
+
+                </DataGrid>
+                <DataGrid>
+                    
+                </DataGrid>
+                <DataGrid>
+                    
+                </DataGrid>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>
