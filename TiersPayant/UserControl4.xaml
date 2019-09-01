@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="TiersPayant.UserControl4"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TiersPayant"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="700">
+    <Grid>
+        <Label FontFamily="Britannic Bold" FontSize="22" Margin="245,10,310,450">RECU</Label>
+        <Label Content="Centre:" HorizontalAlignment="Left" Margin="40,90,0,0" VerticalAlignment="Top"/>
+        <Label Content="Date:" HorizontalAlignment="Left" Margin="40,145,0,0" VerticalAlignment="Top"/>
+        <Label Content="Patient:" HorizontalAlignment="Left" Margin="40,195,0,0" VerticalAlignment="Top"/>
+        <Label Content="Police:" HorizontalAlignment="Left" Margin="40,240,0,0" VerticalAlignment="Top" Width="49"/>
+        <Label Content="Recu n°:" HorizontalAlignment="Left" Margin="360,116,0,0" VerticalAlignment="Top"/>
+        <Label Content="Bon n°:" HorizontalAlignment="Left" Margin="360,171,0,0" VerticalAlignment="Top"/>
+        <Label Content="Domaine d'activité:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,222,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="105,90,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="88,142,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="90,195,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="105,240,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="418,113,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="127"/>
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="413,165,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="471,218,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <DataGrid Margin="40,284,109,96" >
+
+        </DataGrid>
+        <Button Content="Envoyer" HorizontalAlignment="Left" Margin="435,450,0,0" VerticalAlignment="Top" Width="125"/>
+        <Button Content="Remplir" HorizontalAlignment="Left" Margin="130,450,0,0" VerticalAlignment="Top" Width="125"/>
+    </Grid>
+</UserControl>

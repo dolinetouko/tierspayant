@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="TiersPayant.UserControl2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TiersPayant"
+             mc:Ignorable="d" 
+             d:DesignHeight="350" d:DesignWidth="700">
+    <Grid Background="WhiteSmoke">
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" Height="35" Margin="259,70,335,245" Width="106" FontFamily="Britannic Bold" FontSize="16">Bienvenue Ici</Label>
+        <Button Content="Demarrer l'enrôlement"  Height="60" Margin="185,125,258,165" BorderBrush="AntiqueWhite" Click="Button_Click"/>
+    </Grid>
+</UserControl>

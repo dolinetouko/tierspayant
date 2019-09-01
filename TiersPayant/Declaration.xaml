@@ -1,0 +1,15 @@
+﻿<Window x:Class="TiersPayant.Declaration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TiersPayant"
+        mc:Ignorable="d"
+        Title="Message" Height="200" Width="300" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="Manual" IsTabStop="True" >
+    <Grid>
+        <Label Margin="0,0,0,137" HorizontalAlignment="Center" FontFamily="Arial Narrow" FontSize="16">Voulez-vous supprimer toutes les prestations?</Label>
+        <Button Content="OUI" HorizontalAlignment="Left" Margin="45,68,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="NON" HorizontalAlignment="Left" Margin="181,68,0,0" VerticalAlignment="Top" Width="77" Click="Button_Click"/>
+
+    </Grid>
+</Window>

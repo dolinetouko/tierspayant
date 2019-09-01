@@ -1,0 +1,99 @@
+﻿<Window x:Class="TiersPayant.FeuilleDeSoins"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TiersPayant"
+        mc:Ignorable="d"
+        Title="FeuilleDeSoins" Height="auto" Width="800">
+
+    <ScrollViewer CanContentScroll="True" Margin="0,0,0,2">
+
+        <Grid Height="950">
+
+
+            <Label Content="FEUILLE DE SOINS" HorizontalAlignment="Left" Margin="228,49,0,0" VerticalAlignment="Top" Height="77" Width="312" FontSize="36" FontWeight="Bold"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="207" Margin="10,112,0,0" VerticalAlignment="Top" Width="740"/>
+            <Label Content="Souscripteur :" HorizontalAlignment="Left" Margin="27,126,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="-0.09,-2.473"/>
+            <Label Content="Patient :" HorizontalAlignment="Left" Margin="27,234,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label Content="Assuré :" HorizontalAlignment="Left" Margin="27,198,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="-1.868,-2.422"/>
+            <Label Content="Echéance :" HorizontalAlignment="Left" Margin="413,162,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label Content="N° de Police :" HorizontalAlignment="Left" Margin="27,162,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label Content="Centre de soins :" HorizontalAlignment="Left" Margin="27,270,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label Content="Matricule :" HorizontalAlignment="Left" Margin="483,198,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <TextBox Name="Matricule" HorizontalAlignment="Left" Height="31" Margin="572,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+            <TextBox Name="Souscripteur" HorizontalAlignment="Left" Height="31" Margin="164,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="566"/>
+            <TextBox Name="Assure" HorizontalAlignment="Left" Height="31" Margin="113,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="353"/>
+            <TextBox Name="CentreDeSoins" HorizontalAlignment="Left" Height="31" Margin="151,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="579"/>
+            <DatePicker Name="Echeance" HorizontalAlignment="Left" Height="31" Margin="502,162,0,0"  VerticalAlignment="Top" Width="228"/>
+            <TextBox Name="NumPolice" HorizontalAlignment="Left" Height="31" Margin="136,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="259"/>
+            <TextBox Name="Patient" HorizontalAlignment="Left" Height="31" Margin="113,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="617"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="397" Margin="10,337,0,0" VerticalAlignment="Top" Width="740"/>
+            <Label Content="Généraliste" HorizontalAlignment="Left" Margin="27,381,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="-0.686,-7.552"/>
+            <Label Content="Spécialiste" HorizontalAlignment="Left" Margin="27,431,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label Content="Soins infirmiers" HorizontalAlignment="Left" Margin="27,475,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label Content="Soins infirmiers" HorizontalAlignment="Left" Margin="27,516,0,0" VerticalAlignment="Top" FontSize="16" Height="31" Width="118"/>
+            <TextBlock HorizontalAlignment="Left" Margin="164,631,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox Name="CodeActeSoinsInfirmiers1" HorizontalAlignment="Left" Height="23" Margin="164,483,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox Name="CodeActeSoinsInfirmiers2" HorizontalAlignment="Left" Height="23" Margin="164,524,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox Name="CodeActeSpecialiste" HorizontalAlignment="Left" Height="23" Margin="164,439,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox Name="MontantGeneraliste" HorizontalAlignment="Left" Height="23" Margin="527,389,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.564,2.151"/>
+            <TextBox Name="MontantSpecialiste" HorizontalAlignment="Left" Height="23" Margin="527,439,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.262,-9.099"/>
+            <TextBox Name="AffectionSpecialiste" HorizontalAlignment="Left" Height="23" Margin="346,439,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.165,0.5"/>
+            <TextBox Name="AffectionSoinsInfirmiers1" HorizontalAlignment="Left" Height="23" Margin="346,483,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox Name="CodeActeGeneraliste" HorizontalAlignment="Left" Height="23" Margin="164,389,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+            <TextBox Name="MontantSoinsInfirmiers1" HorizontalAlignment="Left" Height="23" Margin="527,483,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox Name="AffectionGeneraliste" HorizontalAlignment="Left" Height="23" Margin="346,389,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox Name="AffectionSoinsInfirmiers2" HorizontalAlignment="Left" Height="23" Margin="346,524,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox Name="MontantSoinsInfirmiers2" HorizontalAlignment="Left" Height="23" Margin="527,524,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label Content="MONTANT" HorizontalAlignment="Left" Margin="556,457,0,0" VerticalAlignment="Top"/>
+            <Label Content="MONTANT" HorizontalAlignment="Left" Margin="556,363,0,0" VerticalAlignment="Top"/>
+            <Label Content="CODE ACTE" HorizontalAlignment="Left" Margin="187,498,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.34,-6.473"/>
+            <Label Content="AFFECTION" HorizontalAlignment="Left" Margin="373,457,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.65,0.054"/>
+            <Label Content="MONTANT" HorizontalAlignment="Left" Margin="556,498,0,0" VerticalAlignment="Top"/>
+            <Label Content="CODE ACTE" HorizontalAlignment="Left" Margin="187,457,0,0" VerticalAlignment="Top"/>
+            <Label Content="MONTANT" HorizontalAlignment="Left" Margin="556,413,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.692,-6.968"/>
+            <Label Content="CODE ACTE" HorizontalAlignment="Left" Margin="187,413,0,0" VerticalAlignment="Top"/>
+            <Label Content="AFFECTION" HorizontalAlignment="Left" Margin="373,413,0,0" VerticalAlignment="Top"/>
+            <Label Content="AFFECTION" HorizontalAlignment="Left" Margin="373,498,0,0" VerticalAlignment="Top"/>
+            <Label Content="CODE ACTE" HorizontalAlignment="Left" Margin="187,363,0,0" VerticalAlignment="Top"/>
+            <Label Content="AFFECTION" HorizontalAlignment="Left" Margin="373,363,0,0" VerticalAlignment="Top"/>
+            <TextBox Name="TotalConsultations" HorizontalAlignment="Left" Height="75" Margin="652,431,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" />
+            <Label Content="TOTAL&#xD;&#xA;CONSULTATIONS" HorizontalAlignment="Left" Margin="652,384,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.76,2.179"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="271" Margin="10,581,0,0" VerticalAlignment="Top" Width="740">
+
+
+            </Border>
+            <Button Content="Montant total :" Margin="398,810,245,108" FontSize="16" Name="montantTotal"></Button>
+            <TextBox TextWrapping="Wrap" Margin="535,808,73,117" Name="totalord"/>
+            <Label Content="ORDONNANCE PHARMACEUTIQUE" HorizontalAlignment="Left" Margin="192,581,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="24"/>
+            <Label Content="MEDICAMENT" HorizontalAlignment="Left" Margin="27,625,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label Content="POSOLOGIE" HorizontalAlignment="Left" Margin="210,625,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label Content="QUANTITE" HorizontalAlignment="Left" Margin="398,628,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label Content="MONTANT" HorizontalAlignment="Left" Margin="591,623,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="40" Margin="27,623,0,0" VerticalAlignment="Top" Width="127"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="38" Margin="192,625,0,0" VerticalAlignment="Top" Width="138"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="38" Margin="556,625,0,0" VerticalAlignment="Top" Width="146"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="38" Margin="373,625,0,0" VerticalAlignment="Top" Width="134"/>
+            <Label Content="1" HorizontalAlignment="Left" Margin="27,703,0,0" VerticalAlignment="Top" FontSize="16" Height="31"/>
+            <Label Content="2" HorizontalAlignment="Left" Margin="27,739,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="-3.264,2.47" Height="30"/>
+            <Label Content="3" HorizontalAlignment="Left" Margin="27,774,0,0" VerticalAlignment="Top" FontSize="16" Height="29"/>
+            <TextBox Name="Ordonnance2" HorizontalAlignment="Left" Height="20" Margin="73,739,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="629" />
+            <TextBox Name="Ordonnance3" HorizontalAlignment="Left" Height="20" Margin="73,774,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="629" />
+            <TextBox Name="Ordonnance1" HorizontalAlignment="Left" Height="20" Margin="73,703,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="629"/>
+            <Button Content="Valider" HorizontalAlignment="Left" Height="32" Margin="228,908,0,0" VerticalAlignment="Top" Width="167" FontSize="18" FontWeight="Bold" Click="Button_Click"/>
+            <DatePicker HorizontalAlignment="Left" Margin="652,22,0,0" VerticalAlignment="Top" Width="123" Name="date"/>
+            <Label Content="Date" HorizontalAlignment="Left" Margin="614,22,0,0" VerticalAlignment="Top" FontSize="14"/>
+            <Label Content="Total General :" HorizontalAlignment="Left" Margin="164,857,0,0" VerticalAlignment="Top" Width="120" Height="37" FontSize="16"/>
+            <TextBox Name="totalGeneral" HorizontalAlignment="Left" Height="27" Margin="304,857,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="263"/>
+            <TextBox Name="Consultation" HorizontalAlignment="Left" Height="39" Margin="302,324,0,0" TextWrapping="Wrap" Text="CONSULTATION" VerticalAlignment="Top" Width="180" FontSize="22" FontWeight="Bold"/>
+            <Button Content="Retour" HorizontalAlignment="Left" Margin="483,908,0,0" VerticalAlignment="Top" Width="117" Height="32" Click="Button_Click_1"/>
+
+
+
+        </Grid>
+    </ScrollViewer>
+
+</Window>
+
+
