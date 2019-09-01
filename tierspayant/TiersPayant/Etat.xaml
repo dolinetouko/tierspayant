@@ -1,0 +1,39 @@
+﻿<Window x:Class="TiersPayant.Etat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TiersPayant"
+        mc:Ignorable="d"
+        Title="Etat" Height="600" Width="500" WindowStyle="None">
+    <Grid Margin="0,0,2,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="445*"/>
+            <ColumnDefinition Width="46*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="idPrestation" HorizontalAlignment="Left" Margin="40,48,0,0" VerticalAlignment="Top" Width="152" Height="40" FontSize="20"/>
+        <Label Content="souscripteur" HorizontalAlignment="Left" Margin="40,88,0,0" VerticalAlignment="Top" Width="152" Height="40" FontSize="20"/>
+        <Label Content="type" HorizontalAlignment="Left" Margin="40,128,0,0" VerticalAlignment="Top" Width="152" Height="40" FontSize="20"/>
+        <Label Content="assure" HorizontalAlignment="Left" Margin="40,173,0,0" VerticalAlignment="Top" Width="152" Height="40" FontSize="20"/>
+        <Label Content="echeance" HorizontalAlignment="Left" Margin="40,213,0,0" VerticalAlignment="Top" Width="152" Height="40" FontSize="20"/>
+        <Label Content="matricule" HorizontalAlignment="Left" Margin="40,253,0,0" VerticalAlignment="Top" Width="152" Height="40" FontSize="20"/>
+        <Label Content="patient" HorizontalAlignment="Left" Margin="40,298,0,0" VerticalAlignment="Top" Width="152" Height="40" FontSize="20"/>
+        <Label Content="centre" HorizontalAlignment="Left" Margin="40,343,0,0" VerticalAlignment="Top" Width="152" Height="40" FontSize="20"/>
+        <Label Content="date" HorizontalAlignment="Left" Margin="40,388,0,0" VerticalAlignment="Top" Width="152" Height="40" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="197,48,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="235" Name="idprestation" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Height="47" Margin="197,81,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="235" Name="souscripteur"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="192,128,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="240" Name="type"/>
+        <TextBox HorizontalAlignment="Left" Height="40" TextWrapping="Wrap"  VerticalAlignment="Top" Width="240" Margin="192,343,0,0" Name="centre"/>
+        <TextBox HorizontalAlignment="Left" Height="45" TextWrapping="Wrap"  VerticalAlignment="Top" Width="240" Margin="192,298,0,0" Name="patient"/>
+        <TextBox HorizontalAlignment="Left" Height="45" Margin="197,168,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="235" Name="assure"/>
+        <TextBox HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" Name="matricule" VerticalAlignment="Top" Width="235" Margin="197,258,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" Name="echeance" VerticalAlignment="Top" Width="235" Margin="197,218,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" Name="date" VerticalAlignment="Top" Width="240" Margin="192,388,0,0"/>
+        <Button Content="Modifier" HorizontalAlignment="Left" Margin="40,473,0,0" VerticalAlignment="Top" Width="101" Height="45" Click="Modifier"/>
+        <Button Content="Supprimer" HorizontalAlignment="Left" Margin="192,473,0,0" VerticalAlignment="Top" Width="100" Height="45" Click="Supprimer"/>
+        <Button Content="Retour" HorizontalAlignment="Left" Margin="346,473,0,0" VerticalAlignment="Top" Width="86" Height="45" Click="Retour"/>
+
+
+
+    </Grid>
+</Window>
