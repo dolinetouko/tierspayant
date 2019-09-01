@@ -1,0 +1,29 @@
+﻿<Window x:Class="TiersPayant.Prestations"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TiersPayant"
+        mc:Ignorable="d"
+        Title="Prestations" Height="540" Width="940">
+    <Grid>
+        <Grid VerticalAlignment="Top" Height="125" Width="800">
+            <Button Width="110" HorizontalAlignment="Left" Content="Hospitalisation" />
+            <Button Width="110" HorizontalAlignment="Center" Content="Consultation"/>
+            <Button Width="110"  HorizontalAlignment="Right" Content="Laboratoire"/>
+        </Grid>
+        <Grid Background="White" Width="800" VerticalAlignment="Bottom" Height="360" HorizontalAlignment="Left" >
+            <StackPanel >
+                <DataGrid >
+                    <DataGrid.Resources>
+                        
+                    </DataGrid.Resources>
+                    <DataGrid.Columns>
+                        
+                    </DataGrid.Columns>
+
+                </DataGrid>
+            </StackPanel>
+        </Grid>
+     </Grid>
+</Window>
