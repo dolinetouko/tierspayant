@@ -24,22 +24,15 @@ namespace TiersPayant
             InitializeComponent();
         }
 
-       /* private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
-        {
-            ButtonOpenMenu.Visibility = Visibility.Collapsed; 
-            ButtonCloseMenu.Visibility = Visibility.Visible;
-        }*/
-        /*private void ButtonCloseMenu_Click(object sender, RoutedEventArgs e)
-        {
-            ButtonOpenMenu.Visibility = Visibility.Visible;
-            ButtonCloseMenu.Visibility = Visibility.Collapsed;
-        }*/
+        //deconnexion
         private void Logout(object sender, RoutedEventArgs e)
         {
             MainWindow main = new MainWindow();
             main.Show();
             this.Hide();
         }
+
+        //gestion du menu de la listbox
         private void listViewMenu_SelectionChange(object sender, RoutedEventArgs e)
         {
             int index = listViewMenu.SelectedIndex;

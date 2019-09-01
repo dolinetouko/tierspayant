@@ -19,9 +19,9 @@
         </Label>
         <StackPanel Orientation="Horizontal" Margin="130,55,70,200">
             <Label  FontFamily="Britannic Bold" FontSize="16" Margin="0,115,0,95">Du</Label>
-            <DatePicker  Height="45" HorizontalAlignment="Left" Width="215" AutomationProperties.Name="date1"></DatePicker>
+            <DatePicker  Height="45" HorizontalAlignment="Left" Width="215" Name="date1"></DatePicker>
             <Label  FontFamily="Britannic Bold" FontSize="16" Margin="0,115,0,95">AU</Label>
-            <DatePicker  Height="45" Width="215" Margin="0,95" AutomationProperties.Name="date2"/>
+            <DatePicker  Height="45" Width="215" Margin="0,95" Name="date2"/>
         </StackPanel>
         <Button Margin="290,235,320,235" Content="Envoyer" Height="30" Click="Button_Click"/>
     </Grid>

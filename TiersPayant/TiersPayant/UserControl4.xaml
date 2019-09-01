@@ -22,25 +22,8 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="418,113,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="127"/>
         <TextBox HorizontalAlignment="Left" Height="25" Margin="413,165,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="471,218,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
-        <DataGrid HorizontalAlignment="Left" Height="100" Margin="40,285,0,0" VerticalAlignment="Top" Width="508" GridLinesVisibility="All" >
-            <DataGrid.Resources>
-                <Style TargetType="{x:Type DataGridColumnHeader}">
-                    <Setter Property="FontWeight" Value="SemiBold"/>
-                    <Setter Property="BorderThickness" Value="0,0,1,2"/>
-                </Style>
-            </DataGrid.Resources>
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Prestation" Width="100"/>
-                <DataGridTextColumn Header="Quantité" Width="100"/>
-                <DataGridTextColumn Header="Prix Unitaire"  Width="100"/>
-                <DataGridTextColumn Header="% pris en charge"  Width="130"/>
-                <DataGridTextColumn Header="Part Assuré" Width="*" />
+        <DataGrid Margin="40,284,109,96" >
 
-            </DataGrid.Columns>
-            <DataGrid>
-                
-            </DataGrid>
-            <DataGrid></DataGrid>
         </DataGrid>
         <Button Content="Envoyer" HorizontalAlignment="Left" Margin="435,450,0,0" VerticalAlignment="Top" Width="125"/>
         <Button Content="Remplir" HorizontalAlignment="Left" Margin="130,450,0,0" VerticalAlignment="Top" Width="125"/>

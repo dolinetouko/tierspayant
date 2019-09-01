@@ -44,29 +44,29 @@
                     </materialDesign:TransitioningContent>-->
 
           <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled" x:Name="listViewMenu"  SelectionChanged="listViewMenu_SelectionChange" >
-            <ListViewItem Height="60" Foreground="White"  >
+            <ListViewItem Height="50" Foreground="White" FontFamily="Arial Black" FontSize="16"  >
               <StackPanel Orientation="Horizontal">
-                <materialDesign:PackIcon Kind="ViewDashboard" Margin="10" VerticalAlignment="Center"></materialDesign:PackIcon>
-                <TextBlock Text="Home" VerticalAlignment="Center" Margin="20 10" ></TextBlock>
+                <materialDesign:PackIcon Kind="ViewDashboard"  VerticalAlignment="Center" Width="30"></materialDesign:PackIcon>
+                <TextBlock Text="Enrôler" VerticalAlignment="Center"  Height="21" Width="78" FontFamily="Century" FontSize="18" ></TextBlock>
               </StackPanel>
             </ListViewItem>
             <ListViewItem Height="60" Foreground="White" >
               <StackPanel Orientation="Horizontal">
-                <materialDesign:PackIcon Kind="Create" Margin="10" VerticalAlignment="Center"></materialDesign:PackIcon>
-                <TextBlock Text="Prestations" VerticalAlignment="Center" Margin="20 10" ></TextBlock>
+                <materialDesign:PackIcon Kind="Create"  VerticalAlignment="Center" Width="30"></materialDesign:PackIcon>
+                <TextBlock Text="Prestations" VerticalAlignment="Center" FontSize="18" FontFamily="Century" Height="22" Width="98"  ></TextBlock>
               </StackPanel>
             </ListViewItem>
             <ListViewItem Height="60" Foreground="White">
               <StackPanel Orientation="Horizontal">
-                <materialDesign:PackIcon Kind="Billboard" Margin="10" VerticalAlignment="Center"></materialDesign:PackIcon>
-                <TextBlock Text="Facturation" VerticalAlignment="Center" Margin="20 10" ></TextBlock>
+                <materialDesign:PackIcon Kind="Billboard"  VerticalAlignment="Center" Width="30"></materialDesign:PackIcon>
+                <TextBlock Text="Facturation" VerticalAlignment="Center" FontSize="18" FontFamily="Century" Height="21" Width="107"  ></TextBlock>
               </StackPanel>
             </ListViewItem>
 
             <ListViewItem Height="60" Foreground="White">
               <StackPanel Orientation="Horizontal">
-                <materialDesign:PackIcon Kind="Payment" Margin="10" VerticalAlignment="Center"></materialDesign:PackIcon>
-                <TextBlock Text="Etats" VerticalAlignment="Center" Margin="20 10" ></TextBlock>
+                <materialDesign:PackIcon Kind="Payment"  VerticalAlignment="Center" Width="30"></materialDesign:PackIcon>
+                <TextBlock Text="Etats" VerticalAlignment="Center" FontFamily="Century" FontSize="18"  ></TextBlock>
               </StackPanel>
             </ListViewItem>
           </ListView>
@@ -74,7 +74,7 @@
       </StackPanel>
 
     </Grid>
-    <Grid  Height="500" VerticalAlignment="Bottom" Width="800" HorizontalAlignment="Right">
+    <Grid  Height="540" VerticalAlignment="Bottom" Width="880" HorizontalAlignment="Right">
       <Grid x:Name="GridPrincipal" >
 
       </Grid>

@@ -23,10 +23,13 @@ namespace TiersPayant
         public MainWindow()
         {
             InitializeComponent();
+            Connexion.EtablirConnexion();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
+            //string query = "Select count(1) From";
             PageAccueil pageAccueil = new PageAccueil();
             pageAccueil.Show();
             this.Hide();

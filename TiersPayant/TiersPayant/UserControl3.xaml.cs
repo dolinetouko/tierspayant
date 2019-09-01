@@ -29,7 +29,8 @@ namespace TiersPayant
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            String dateDebut = date1.Text;
+            String dateFin = date2.Text;
         }
     }
 }

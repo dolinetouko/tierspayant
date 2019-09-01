@@ -24,5 +24,11 @@ namespace TiersPayant
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Enroler enroler = new Enroler();
+            enroler.Show();
+        }
     }
 }

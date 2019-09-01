@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="350" d:DesignWidth="700">
     <Grid Background="WhiteSmoke">
-        <Label VerticalAlignment="Center" HorizontalAlignment="Center" Height="35" Margin="185,70,390,245" Width="125" FontFamily="Britannic Bold" FontSize="16">Bienvenue Ici</Label>
-        <Button Content="Demarrer l'enrôlement"  Height="60" Margin="120,125,335,165" BorderBrush="AntiqueWhite"/>
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" Height="35" Margin="259,70,335,245" Width="106" FontFamily="Britannic Bold" FontSize="16">Bienvenue Ici</Label>
+        <Button Content="Demarrer l'enrôlement"  Height="60" Margin="185,125,258,165" BorderBrush="AntiqueWhite" Click="Button_Click"/>
     </Grid>
 </UserControl>
